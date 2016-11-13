@@ -23,6 +23,7 @@ __Psuedocode:__
 while (True):
 	i = 1
 	xFactor = input * i		# Multiply by a suitable number
+	
 	if ( xFactor % 10== 9 ): 
 		continue with the program
 		break
@@ -61,6 +62,7 @@ while (True):
 `
 if (num % input == 0):
 	print (num "is divisible by" input)
+
 else:
 	print (num "is NOT divisible by" input)
 `
