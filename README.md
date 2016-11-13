@@ -5,7 +5,6 @@ It is a mathematical algorithm that verifies if a number is divisible by another
 *Future versions of this program will avoid using the modulus operator (%)*
 
 __Psuedocode:__
-
 1. USER INPUT
   * Ask for a number to divide
   * Ask for a number that can be a factor of the first number
@@ -29,13 +28,18 @@ __Psuedocode:__
 
 5 Divide the xFactor by 10 and add 1 to get the true xFactor
 *		xFactor = (xFactor / 10) + 1
+
 6 Print the xFactor to the user
+
 7 Modulus the first user inputted number by 10 to get the one's digit 
 *		onesDigit = num % 10
+
 8 Multiple that onesDigit by the xFactor to get the adjuster number
 *		onesDigit *= xFactor
+
 9 Divide the first user inputted number by 10, while truncating the following decimal values, to get the penultimate digits
 *		penUlt = int(num / 10)
+
 10 Add the new onesDigit number to the penultimate digits
 *		penUlt += onesDigit
 
