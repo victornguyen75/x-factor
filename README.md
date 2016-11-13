@@ -2,9 +2,8 @@
 ###### A divisibility checker
 It is a mathematical algorithm that verifies if a number is divisible by another number. Due to the rise of technology and computers, we can simply use the modulous operator to quickly satisfy this problem. However, in a situation that we do NOT have access to a calculator, the X Factor algorithm can be quite useful. Despite it's elaborate tediousness as a recursive algorithm, it can apply to any pair of numbers.
 
-*Future versions of this program will avoid using the modulus operator (%)*
-
 __Psuedocode:__
+*Future versions of this program will avoid using the modulus operator (%)*
 
 1 USER INPUT
   * Ask for a number to divide
