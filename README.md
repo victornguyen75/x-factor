@@ -17,14 +17,16 @@ __Psuedocode:__
   * else will end the program
 
 4 Multiply the input by a suitable number so that the product as a 9 in the ones place
-	`while (True):
-			i = 1
-			xFactor = input * i		# Multiply by a suitable number
-			if ( xFactor % 10== 9 ): 
-					continue with the program
-					break
-			else:		
-					i+=1`
+`
+	while (True):
+		i = 1
+		xFactor = input * i		# Multiply by a suitable number
+		if ( xFactor % 10== 9 ): 
+			continue with the program
+			break
+		else:		
+			i+=1
+`
 
 5 Divide the xFactor by 10 and add 1 to get the true xFactor
 	`xFactor = (xFactor / 10) + 1`
