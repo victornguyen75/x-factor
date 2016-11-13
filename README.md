@@ -4,7 +4,8 @@ It is a mathematical algorithm that verifies if a number is divisible by another
 
 *Future versions of this program will avoid using the modulus operator (%)*
 
-__Psuedocode__:
+__Psuedocode:__
+
 1. USER INPUT
   * Ask for a number to divide
   * Ask for a number that can be a factor of the first number
