@@ -65,9 +65,9 @@ penUlt += onesDigit
 
 11 VERIFICATION-FUNCTION: Ask the user if the number is "divisible" (string = "divisible")
 
-12  Recursively loop to step 4 if the answer is 'N', 'n', 'No', or 'no'
+12 Recursively loop to step 4 if the answer is "N", "n", "No", or "no"
 
-13 If 'Y', 'y', 'Yes', or 'yes', validate that with
+13 If "Y", "y", "Yes", or "yes", validate that with
 
 ```
 if (num % input == 0):
@@ -76,5 +76,13 @@ if (num % input == 0):
 else:
 	print (num "is NOT divisible by" input)
 ```
+14 If the reply is none of the above, have a while loop that will keep asking the user for a valid input:
 
-14 End the program with "Thanks for using the program!" 
+'''
+while (reply != "Y" and reply != "y" and reply != "Yes" and reply != "yes" and 
+	reply != "N" and reply != "n" and reply != "No" and reply != "no" and){
+	reply = input("Please enter a valid answer choice (Y, y, Yes, yes, N, n, No, or no): ")	
+}	
+'''
+
+15 End the program with "Thanks for using the program!" 
