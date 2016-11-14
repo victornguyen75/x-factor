@@ -78,11 +78,11 @@ else:
 ```
 14 If the reply is none of the above, have a while loop that will keep asking the user for a valid input:
 
-'''
+```
 while (reply != "Y" and reply != "y" and reply != "Yes" and reply != "yes" and 
 	reply != "N" and reply != "n" and reply != "No" and reply != "no" and){
 	reply = input("Please enter a valid answer choice (Y, y, Yes, yes, N, n, No, or no): ")	
 }	
-'''
+```
 
 15 End the program with "Thanks for using the program!" 
