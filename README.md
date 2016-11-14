@@ -80,7 +80,7 @@ else:
 
 ```
 while (reply != "Y" and reply != "y" and reply != "Yes" and reply != "yes" and 
-	reply != "N" and reply != "n" and reply != "No" and reply != "no" and){
+	reply != "N" and reply != "n" and reply != "No" and reply != "no"){
 	reply = input("Please enter a valid answer choice (Y, y, Yes, yes, N, n, No, or no): ")	
 }	
 ```
