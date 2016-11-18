@@ -5,6 +5,7 @@ It is a mathematical algorithm that verifies if a number is divisible by another
 __Psuedocode:__
 
 *Future versions of this program will avoid using the modulus operator (%)*
+*mod = A-B * (A/B)*
 
 1 USER INPUT
   * Ask for a number to divide
