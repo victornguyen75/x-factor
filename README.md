@@ -1,6 +1,6 @@
 # X Factor
 ###### A divisibility checker
-It is a mathematical algorithm that verifies if a number is divisible by another number. Due to the rise of technology and computers, we can simply use the modulous operator to quickly satisfy this problem. However, in a situation that we do NOT have access to a calculator, the X Factor algorithm can be quite useful. Despite it's elaborate tediousness as a recursive algorithm, it can apply to any pair of numbers.
+It is a mathematical algorithm that verifies if a number is divisible by another number. Due to the rise of technology and computers, we can simply use the modulous operator to quickly satisfy this problem. However, in a situation that we do NOT have access to a calculator, the X Factor algorithm can be quite useful. Despite it's elaborate tediousness as a recursive algorithm, it can apply to any pair of numbers. The ideal time to use this algorithm is when you only have a pencil and paper.
 
 __Psuedocode:__
 
