@@ -10,7 +10,7 @@ A-B * (A/B), where A and B are positive integers
 Created by:    Victor Nguyen
 Updated on:    12/12/2016
 '''
-# Function prototyping
+# Function prototypes
 # Character validation
 def validate(char):
 	while char != 'Y' and char != 'y' and char != 'N' and char != 'n':
