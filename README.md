@@ -70,11 +70,11 @@ penUlt += onesDigit
 13 If "Y", "y", "Yes", or "yes", validate that with
 
 ```
-if num % input == 0
-	print (num "is divisible by" input)
+if num % input == 0:
+	print (str(firstNum) + "is divisible by " + str(secondNum))
 
-else
-	print (num "is NOT divisible by" input)
+else:
+	print (str(firstNum) + "is NOT divisible by " + str(secondNum))
 ```
 14 If the reply is none of the above, have a while loop that will keep asking the user for a valid input:
 
