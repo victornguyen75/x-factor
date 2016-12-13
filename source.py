@@ -22,7 +22,8 @@ secondNum = 0
 choice = 'y'
 xFactor = 1
 onesDigit = 0
-penUlt = 0;
+penUlt = 0
+flag = False	# This flag checks to see if the xFactor has already been calculated or not
 
 # INPUT VALIDATION
 while True:
@@ -49,16 +50,19 @@ validate(choice)
 # creates the xFactor  #
 ########################
 
-# Find a multiple of the second number 
-# that has a 9 in the one's place
-while xFactor - 10 * (xFactor/10) != 9:
-    xFactor = secondNum * i
-    i+=1
+if !flag:	# If the xFactor has not been calculated, follow these steps
+	# Find a multiple of the second number 
+	# that has a 9 in the one's place
+	while xFactor - 10 * (xFactor/10) != 9:
+	    xFactor = secondNum * multiplier
+	    multiplier+=1
 
-# Now, using the value in the ten's
-# place, add 1
-xFactor = (xFactor / 10) + 1
-   
+	# Now, using the value in the ten's
+	# place, add 1
+	xFactor = (xFactor / 10) + 1
+
+# else: continue with the rest of the program
+	
 # Display to the user what
 # the xFactor is
 print("Your X Factor is " str(xFactor))
@@ -80,4 +84,6 @@ penUlt += onesDigit
 # user
 print("Is " + str(penUlt) + " divisible by " + str(secondNum) + "? ")
 
-    
+# If no, call the algorithim again.
+# Call xFactor function again
+
